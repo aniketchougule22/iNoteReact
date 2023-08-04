@@ -150,6 +150,16 @@ const About = () => {
           </div>
         </div>
       </div>
+      <footer style={{
+        textAlign: "right",
+        backgroundColor: "#f0f0f0",
+        paddingTop: "40px",
+        paddingLeft: "20px"
+      }}
+      >
+        <p style={{ margin: "0", fontSize: "14px" }}>- Created by Aniket Chougule</p>
+      </footer>
+
     </div>
   );
 };

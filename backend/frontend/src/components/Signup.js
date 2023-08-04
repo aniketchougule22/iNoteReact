@@ -36,6 +36,7 @@ const Signup = (props) => {
       };
 
   return (
+    <>
     <div className="mx-auto col-10 col-md-8 col-lg-6">
     <h2>Create an account to use <strong>iNoteReact</strong></h2><hr/>
       <form onSubmit={handleSubmitClick}>
@@ -90,6 +91,16 @@ const Signup = (props) => {
         </button>
       </form>
     </div>
+      <footer style={{
+        textAlign: "right",
+        backgroundColor: "#f0f0f0",
+        paddingTop: "80px",
+        marginLeft: "350px"
+      }}
+      >
+        <p style={{ margin: "0", fontSize: "14px" }}>- Created by Aniket Chougule</p>
+      </footer>
+    </>
   );
 };
 
